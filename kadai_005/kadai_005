@@ -1,1 +1,6 @@
+top_area = 10
+under_area = 20
+height = 5
+unit = "㎠"
 
+print(str((top_area + under_area) * height / 2) + unit)
