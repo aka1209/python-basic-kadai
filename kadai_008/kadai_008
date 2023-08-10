@@ -1,0 +1,17 @@
+import random
+
+var = random.randint(1, 100)
+
+print(var)
+
+# 3と5の倍数の処理
+if var % 3 == 0 and var % 5 == 0:
+  print("FizzBuzz")
+# 3の倍数の処理
+elif var % 3 == 0:
+  print("Fizz")
+# 5の倍数の処理
+elif var % 5 == 0:
+  print("Buzz")
+else:
+  print(var)
