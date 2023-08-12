@@ -1,0 +1,11 @@
+ist = ["水","金","地","火","木","土","天","海","冥"]
+i = 0
+
+# for文によるループ処理
+for a in list:
+  print(a)
+
+# while文によるループ処理
+while list[i] != list[8]:
+  print(list[i])
+  i = i + 1
