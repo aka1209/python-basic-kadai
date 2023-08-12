@@ -1,0 +1,6 @@
+def commodity_price(value, num: int):
+  percent = num * 0.01
+  total = value * percent + value
+  print(total)
+
+commodity_price(1200, 10)
